@@ -1,0 +1,19 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: scroll;
+  /*
+    横スクロールは常にONにする
+    https://github.com/bvaughn/react-virtualized/issues/955
+  */
+  overflow-y: scroll;
+  /* カード表示時のちらつきを抑えるため */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
